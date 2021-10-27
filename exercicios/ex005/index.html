@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantica</title>
+</head>
+<body>
+    <h1>principais formatações</h1>
+    <h2>Negrito / destaque</h2>
+    <p>
+        Nessa frase não use essa <b>tag</b><!--Sem semântica.--> para isso.
+        <br>
+        No lugar disso, use essa <strong>tag</strong><!--Esta tag é semântica.-->.
+    </p>
+    <h2>Itálico / Ênfase</h2>
+    <p>
+        <i>Tem duas formas de deixar essa frase em itálico essa</i><!--Sem semântica.-->.
+        <br>
+        <em>E essa outra que por acaso esta aqui é melhor</em><!--Esta tag é semântica.-->.
+    </p>
+    <h2>Marcação / Super destaque</h2>
+    <p>
+        <mark>Quer destacar algo muito mesmo faça isso.</mark>
+    </p>
+    <h2>Big VS Small</h2>
+    <p>
+        <big>Big morreu no HTML5</big><!--Quando a tag está vermelha quer dizer que ela está obsoleta-->,<small> porém o small não.</small>
+    </p>
+    <h2>Deletado e inserido</h2>
+    <p>
+        <strike>Antes deletavamos textos de uma forma</strike> <u>e insíamos assim</u>. <del>Agora vamos modernizar</del> <ins>e fazer desta forma, "Ok"</ins>?
+    </p>
+    <h2>Vamos usar sub e sup</h2>
+    <p>
+        X<sub>2</sub> e X<sup>2</sup>. Entendeu?
+    </p>
+    <h2>Techos de códigos</h2>
+    <p>
+        Basta usa &lt;code&gt;Vamos usar python.
+    </p>
+    <pre><code>
+num = int(input("Digite um número: "))
+if (num%2) == 0:
+    print(f"O {num} é par.")
+else:
+    print(f"O {num} número não é par.")
+print("Fim do programa.")
+    </code></pre>
+    <h2>Citações</h2>
+    <p>
+        De acordo com Immanuel Kante <q>o ser humano é tudo aquilo que a educação faz dele.</q>
+    </p>
+    <p>
+        De acordo com Pierre Levy:
+    </p>
+    <blockquote cite="https://www.pensador.com/frases_de_pierre_levy/#:~:text=Somos%20c%C3%A9us%20atravessados%20por%20nuvens%20de%20energias%20vindas,nos%20tornamos%20algu%C3%A9m.%20Pierre%20L%C3%A9vy.%20Adicionar%20%C3%A0%20cole%C3%A7%C3%A3o">
+        A tecnologia cria seus excluídos.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>
+        A <abbr title="Integilência Social Artificial">ISA</abbr> é só um projeto de <abbr title="Trabalho de Conclusão de Curso">TCC</abbr>. É  assim que faz siglas.
+    </p>
+    <h2>Inverta o texto</h2>
+    <p>
+        <bdo dir="rtl">Texto invertido</bdo>
+    </p>
+    <h2>Endereço</h2>
+    <p>
+        <address>Rua Veriador Domingos de Freire Freitas, 372</address>
+    </p>
+</body>
+</html>
