@@ -22,3 +22,8 @@ thead, tfoot{
 .num{
     text-align: right;
 }
+
+table > caption{
+    font-size: 2em;
+    background-color: lightgray;
+}
