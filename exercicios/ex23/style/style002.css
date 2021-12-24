@@ -27,3 +27,11 @@ table > caption{
     font-size: 2em;
     background-color: lightgray;
 }
+
+tbody > tr:nth-child(2n-1){
+    background-color: rgba(211, 211, 211, 0.123);
+}
+
+tbody > tr:nth-child(2n){
+    background-color: rgba(173, 216, 230, 0.664);
+}
